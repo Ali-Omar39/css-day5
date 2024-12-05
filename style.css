@@ -78,13 +78,19 @@
 
 /* service css start */
 #servicepart{
+    height: 400px;
     width: 100%;
-    height: 500px
+    position: relative;
+    background-color:green;
+    position: relative;
 }
 #firstdiv{
     height: 300px;
     width:300px;
     background-color:aquamarine;
+    position: absolute;
+    top: 20px;
+    left:150px;
     
 }
 #seconddiv{
@@ -92,8 +98,8 @@
     width: 300px;
     background-color: violet;
     position: absolute;
-    top: 720px;
-    left:200px;
+    top: 20px;
+    left:300px;
 
 }
 #thirddiv{
@@ -101,24 +107,24 @@
     width: 300px;
     background-color: red;
     position: absolute;
-    left:480px;
-    top: 505px;
+    left:600px;
+    top: 0px;
 }
 #forthdiv{
     height: 300px;
     width: 300px;
     background-color:violet;
     position: absolute;
-    left:760px;
-    top: 720px;
+    left:900px;
+    top: 20px;
 }
 #fifthdiv{
     height: 300px;
     width:300px;
     background-color:aquamarine;
     position: absolute;
-    left:1040px ;
-    top: 505px;
+    left:1200px ;
+    top: 0px;
 }    
 .firstdivh1{
     text-align: center;
