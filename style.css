@@ -13,6 +13,8 @@
     width: 100%;
     padding: 10px 0px;
     text-align: center;
+    position: fixed;
+    top: 0px; 
 }
 #logo{
     display: inline;
