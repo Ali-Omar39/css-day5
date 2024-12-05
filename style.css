@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navigation css start */
+.nav-content{
+    background-color:tomato;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+}
+#logo{
+    display: inline;
+    margin-right: 150px;
+}
+#nav-home{
+    display: inline;
+}
+#icon{
+    display: inline;
+   margin-right: 20px;
+   margin-left: 50px;
+}
+.logoname{
+    display: inline;
+    color: white;
+}
+#nav-home a{
+    padding: 0px 10px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+#icon a{
+    padding: 0px 10px;
+    color: aliceblue;
+}
+/* navigation css end */
+/* about css start */
+#aboutpart{
+    margin: 150px 80px;
+}
+.abouth1{
+    font-size: 48px;
+    text-transform: uppercase;
+    font-family:Teko;
+    font-weight: 900;
+    letter-spacing: 5px;
+    line-height: 5px
+}
+.aboutp1{
+    text-align: justify;
+    font-family:Libre+Baskerville ;
+    padding-bottom: 30px;
+    margin-right: 500px;
+}
+.aboutbtn{
+    text-transform: uppercase;
+    height: 30px;
+    width: 200px;
+    text-align: left;
+    background: tomato;
+    color: white;
+    border: 2px solid black;
+    display: inline;
+}
+.aboutp2{
+    display: inline;
+    padding: 0px 30px;
+}
+/* about css end */
+
+
+/* service css start */
+#servicepart{
+    width: 100%;
+    height: 500px
+}
+#firstdiv{
+    height: 300px;
+    width:300px;
+    background-color:aquamarine;
+    
+}
+#seconddiv{
+    height: 300px;
+    width: 300px;
+    background-color: violet;
+    position: absolute;
+    top: 720px;
+    left:200px;
+
+}
+#thirddiv{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    left:480px;
+    top: 505px;
+}
+#forthdiv{
+    height: 300px;
+    width: 300px;
+    background-color:violet;
+    position: absolute;
+    left:760px;
+    top: 720px;
+}
+#fifthdiv{
+    height: 300px;
+    width:300px;
+    background-color:aquamarine;
+    position: absolute;
+    left:1040px ;
+    top: 505px;
+}    
+.firstdivh1{
+    text-align: center;
+    color: red;
+    padding: 20px 0px;
+}
+.firstdivp{
+    text-align: justify;
+    padding: 10px 30px;
+    color: black;
+}
+.seconddivh1{
+    text-align: center;
+    color: rgb(246, 237, 237);
+    padding: 30px 0px;  
+}
+.seconddivp{
+    text-align: justify;
+    padding: 0px 30px;
+    color: black;
+}
+
+/* service css end */
+/* contact css start */
+#contactpart{
+    background:tomato;
+    height: 500px;
+    width: 100%;
+}
+#form{
+    margin: 0px 100px;
+}
+#name{
+    display:block;
+    height: 30px;
+    width: 100%;
+    margin: 10px 0px;
+}
+#email{
+    display:block;
+    height: 30px;
+    width: 100%;
+    margin: 10px 0px;
+}
+#psw{
+    display:block;
+    height: 30px;
+    width: 100%;
+    margin: 10px 0px;
+}
+.formh1{
+    text-align: center;
+    padding: 50px 0px;
+}
+#button{
+    height: 50px;
+    width: 150px;
+    background:rgb(1, 64, 89);
+    color: white;
+    text-transform: uppercase;
+}
+/* contact css end */
+
+
+
